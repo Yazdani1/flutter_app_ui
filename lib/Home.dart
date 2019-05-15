@@ -85,13 +85,39 @@ class _HomeState extends State<Home> {
                 ),//end
                 new SizedBox(height: 10.0,),
                 new Container(
-                  height: 500.0,
+                  height: MediaQuery.of(context).size.height,
                   decoration: new BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
                     color: Color(0xFF212120)
                   ),
                   child: new ListView(
                     children: <Widget>[
+                      membrs("asset/a.jpg", "Jon Deo", "HR Manager", "50k+"),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: new Divider(height: 2.0,color: Colors.white,),
+                      ),
+
+                      membrs("asset/b.jpg", "Jon Deo", "HR Manager", "50k+"),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: new Divider(height: 2.0,color: Colors.white,),
+                      ),
+
+                      membrs("asset/a.jpg", "Jon Deo", "HR Manager", "50k+"),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: new Divider(height: 2.0,color: Colors.white,),
+                      ),
+
+                      membrs("asset/b.jpg", "Jon Deo", "HR Manager", "50k+"),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: new Divider(height: 2.0,color: Colors.white,),
+                      ),
+
+
+
 
                     ],
                   ),
@@ -144,7 +170,59 @@ class _HomeState extends State<Home> {
 
   Widget membrs(String image,String num1,String num2,String
       flower){
-    
+    return Container(
+      margin: EdgeInsets.all(10.0),
+      child: new Row(
+        children: <Widget>[
+
+          new Container(
+            child: new ClipRRect(
+              borderRadius: BorderRadius.circular(90.0),
+              child: new Image.asset(image,
+              height: 40.0,
+                width: 40.0,
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          new SizedBox(width: 20.0,),
+          new Container(
+            child: new Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+
+                new Text(num1,
+                  style: TextStyle(
+                    fontSize: 15.0,
+                    color: Colors.white
+                  ),
+                ),
+                new SizedBox(height: 5.0,),
+                new Text(num2,
+                  style: TextStyle(
+                    fontSize: 15.0,
+                    color: Colors.white
+                  ),
+                ),
+              ],
+            ),
+          ),
+          new SizedBox(width: 120.0,),
+          new Container(
+            child: Align(
+              alignment: Alignment.centerRight,
+              child: new Text(flower,
+                style: TextStyle(
+                    fontSize: 15.0,
+                    color: Colors.white
+                ),
+              ),
+            ),
+          )
+
+        ],
+      ),
+    );
   }
 
 }
