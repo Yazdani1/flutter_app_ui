@@ -1,16 +1,9 @@
-# flutter_app_ui
+# Flutter APP UI
 
-A new Flutter application.
+![pppppppppppppppppp](https://user-images.githubusercontent.com/20543298/57792807-b7c22d80-7761-11e9-86f4-b005b102a0f0.PNG)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+
