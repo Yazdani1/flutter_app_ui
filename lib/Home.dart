@@ -69,8 +69,7 @@ class _HomeState extends State<Home> {
                 allData("asset/a.jpg", "Loren", "Ipsum")
               ],
             ),
-          ),//end second container..
-
+          ),//end second container.
           //third container start..
           new Container(
             margin: EdgeInsets.all(15.0),
