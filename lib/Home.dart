@@ -71,6 +71,36 @@ class _HomeState extends State<Home> {
             ),
           ),//end second container..
 
+          //third container start..
+          new Container(
+            margin: EdgeInsets.all(15.0),
+            child: new Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                new Container(
+                  child: new Text("Members",
+                  style:
+                    TextStyle(fontSize: 17.0,color: Colors.white),
+                  ),
+                ),//end
+                new SizedBox(height: 10.0,),
+                new Container(
+                  height: 500.0,
+                  decoration: new BoxDecoration(
+                    borderRadius: BorderRadius.circular(15.0),
+                    color: Color(0xFF212120)
+                  ),
+                  child: new ListView(
+                    children: <Widget>[
+
+                    ],
+                  ),
+                )
+
+              ],
+            ),
+          )
+
         ],
       ),
     );
@@ -110,6 +140,11 @@ class _HomeState extends State<Home> {
         ],
       ),
     );
+  }
+
+  Widget membrs(String image,String num1,String num2,String
+      flower){
+    
   }
 
 }
