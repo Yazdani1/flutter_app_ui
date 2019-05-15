@@ -54,7 +54,6 @@ class _HomeState extends State<Home> {
               ],
             ),
           ),//first container end..
-
           //second container start.
           new Container(
             height: 170.0,
