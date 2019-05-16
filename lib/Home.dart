@@ -104,13 +104,12 @@ class _HomeState extends State<Home> {
                         padding: const EdgeInsets.all(8.0),
                         child: new Divider(height: 2.0,color: Colors.white,),
                       ),
-
                       membrs("asset/b.jpg", "Jon Deo", "HR Manager", "50k+"),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: new Divider(height: 2.0,color: Colors.white,),
                       ),
-                      
+
                     ],
                   ),
                 )
