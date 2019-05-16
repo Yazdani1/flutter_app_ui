@@ -17,7 +17,6 @@ class _HomeState extends State<Home> {
             child: new Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-
                 new Text("Loren Ipsum",
                 style: TextStyle(fontSize: 22.0,color: Colors.white),
                 ),
